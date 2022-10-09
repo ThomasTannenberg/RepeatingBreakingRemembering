@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665338591183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Part 3+4 completed">
+      <created>1665339676982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665339676982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +83,7 @@
     <MESSAGE value="start coding" />
     <MESSAGE value="Part 1 completed" />
     <MESSAGE value="Part 2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 2 completed" />
+    <MESSAGE value="Part 3+4 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 3+4 completed" />
   </component>
 </project>

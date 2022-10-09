@@ -10,6 +10,7 @@ public class Main {
         //Extend the program so that it prints the sum of the numbers (not including the -1) the user has written.
         //Extend the program so that it also prints the number of numbers (not including the -1) the user has written.
         //Extend the program so that it prints the mean of the numbers (not including the -1) the user has written.
+        //Extend the program so that it prints the number of even and odd numbers (excluding the -1).
 
         Scanner scanner = new Scanner(System.in);
 
@@ -17,23 +18,37 @@ public class Main {
         int input = 0;
         int numbers = 0;
         int sum = 0;
+        int testEven = 0;
+        int even = 0;
+        int odd = 0;
         double average = 0;
 
         while (input > -1 || input < -1) {
             input = Integer.valueOf(scanner.nextLine());
             numbers++;
             sum += input;
-        }
-        if (input == -1) {
-            System.out.println("Thx! Bye!");
-            sum = sum +1;
-            numbers = numbers -1;
-            average = 1.0 * sum / numbers;
+            testEven = input % 2;
 
+            if (testEven == 0) {
+                even++;
+            } else {
+                odd++;
+            }
 
         }
-        System.out.println("Sum:" + sum);
-        System.out.println("Numbers: " + numbers);
-        System.out.println("Average:" + average);
+
+            if (input == -1) {
+                System.out.println("Thx! Bye!");
+                sum = sum + 1;
+                numbers = numbers - 1;
+                average = 1.0 * sum / numbers;
+            }
+
+            System.out.println("Sum:" + sum);
+            System.out.println("Numbers: " + numbers);
+            System.out.println("Average:" + average);
+            System.out.println("Even:" + even);
+            System.out.println("Odd:" + (odd - 1));
+
     }
 }
