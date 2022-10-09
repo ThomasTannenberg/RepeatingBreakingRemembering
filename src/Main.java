@@ -10,5 +10,14 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Write numbers: ");
+        int number = 0;
+
+        while (number > -1 || number < -1) {
+            number = Integer.valueOf(scanner.nextLine());
+        }
+        if (number == -1) {
+            System.out.println("Thx! Bye!");
+        }
     }
 }
